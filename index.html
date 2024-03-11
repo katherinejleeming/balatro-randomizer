@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Balatro Randomizer</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+  <!-- <link rel="stylesheet" href="https://use.typekit.net/hpz7gnq.css"> -->
+</head>
+<body>
+  <div id="prompt"></div>
+  <h2>Welcome to the Balatro Deck & Stake Randomizer</h2>
+  <input id="randomButton" type="button" value="Randomize!" onclick="playMusic()" />
+  <div class="container">
+    <div id="outputDeck">
+      <img id="deckImage" src="./images/placeholder.png" alt="Deck Image" class="deckImage">
+      <h1 id="deckName" class="deckName"></h1>
+      <h1 id="deckDescription" class="deckDescription"></h1>
+    </div>
+    <div id="outputStake">
+      <img id="stakeImage" src="./images/stake_images/stake_placeholder.png" alt=" Stake Image" class="stakeImage">
+      <h1 id="stakeName" class="stakeName"></h1>
+      <h1 id="stakeDescription" class="stakeDescription"></h1>
+
+      <!-- <input type="button" value="Randomize Deck" onclick="displayRandomDeck()">
+      <input type="button" value="Randomize Stake" onclick="displayRandomStake()"> -->
+      
+    </div>
+  </div>
+  <script src="script.js"></script>
+
+
+</body>
+<footer>
+    <p>All photo rights reserved to LocalThunk & PlayStack.</p>
+</footer>
+</html>

@@ -1,0 +1,77 @@
+@font-face {
+    font-family: balatroFont;
+    src: url(./balatro.ttf);
+  }
+  
+  body {
+      font-family: balatroFont;
+      color: white;
+      margin: center;
+      padding: 0;
+      /* background-image: url("./images/balatro_background.jpeg"); */
+      background-color: black;
+      background-size: auto;
+      font-size: 40px;
+    }
+    
+    .container {
+      display: flex;
+    }
+    
+    h1 {
+      margin-bottom: 20px;
+    }  
+  
+    p {
+      position: absolute;
+      top: 10;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: small;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      align-items: center;
+    }
+    
+    #outputDeck,
+    #outputStake {
+      flex: 1;
+      margin-right: 20px;
+    }
+    
+    .deckImage,
+    .stakeImage {
+      /* max-width: 100px;
+      height: auto; */
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: small;
+    }
+    
+    .deckName,
+    .stakeName {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .deckDescription,
+    .stakeDescription {
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-size: small;
+    }
+
+    #randomButton {
+      position: absolute;
+      top: 10;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: red;
+      color: #fff;
+      border: none;
+      padding: 10px 20px; 
+      font-family: balatroFont;
+    }
+
+    
